@@ -78,6 +78,7 @@ body * {
     color: #A1A1A1;
     font-size: 16px;
     text-decoration: underline;
+    list-style-type: none;
 }
 
 .dropbox:focus {

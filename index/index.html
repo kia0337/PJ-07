@@ -57,12 +57,22 @@
                 <span class="error-message">Более 1000 символов</span>
                 <input placeholder="Введите текст сообщения..." id="input">
             </div>
-            <button type='submit' class="button" disabled>Отправить</button>
+            <button type='submit' class="button">Отправить</button>
         </form>
         <div class="comments-container">
         </div>
     </div>
 
+
 </body>
+<script>
+    const users = {
+        0: new User(0, 'Алексей_1994b', './img/user_1.png'),
+        1: new User(1, 'Максим Авдеенко', './img/user_2.png'),
+        2: new User(2, 'Джунбокс3000', './img/user_3.png'),
+    }
+
+    new App(users)
+</script>
 
 </html>
